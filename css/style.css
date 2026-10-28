@@ -1,0 +1,191 @@
+
+/* Definição de fontes */
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/poppins-bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap; /* muda para fallback caso a fonte não carregue */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/poppins-regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* muda para fallback caso a fonte não carregue */
+}
+
+
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo desktop */
+body {
+    background-color: #0E1014;
+    color: #FFFFFF;
+}
+
+header img {
+    display: block;
+    margin: 75px auto auto  360px;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px auto;
+
+}
+
+h1 span {
+    color: #9747FF;
+}
+
+p {
+    font-size:24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: 792px;
+    margin: 24px auto 0 auto;
+}
+
+a {
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:24px;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    /* para que o link seja exibido como bloco */
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    /* bordas arredondadas */
+    border-radius: 36px;
+    margin: 40px auto;
+}
+
+/* aplicando efeito de hover no link, para que o usuário saiba que é clicável */
+a:hover {
+    background-color: #8233E8;
+}
+
+/* aplicando apenas na imagem dentro da section, para não afetar outras imagens do site */
+section img {
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px){
+
+    header img {
+        margin: 65px 0 0 60px;
+    }
+
+    p{
+        width: 648px;
+    }
+}
+
+@media(max-width: 375px){
+    header img {
+        margin: 32px 0 0 16px;
+    }
+    h1{
+        font-size: 40px;
+        margin-top: 60px auto;
+    }
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    a{
+        font-size: 20px;
+        width: 251px;
+    }
+    section img {
+        width: 340px;
+        height: 230px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset CSS de Eric Meyer - versão reduzida */
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+} */
+
+
+
+/* p span {
+    color: #9747FF
+} */
+
+/*
+h1, p, a {
+      
+        hexaecimal
+        noemada
+        rgb
+    
+    color: #FFFFFF;
+
+    FONTES GENÉRICAS:
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: fantasy;
+    font-family: cursive;
+    
+}
+*/
+
+/* 
+CRIAÇÃO DE UMA CLASSE PARA INSERIR NO CÓDIGO HTML, PARA MUDAR A COR DE UM ELEMENTO ESPECÍFICO PARA BRANCO. MAIS TRABALHOSO
+.cor-branca{
+    color: #FFFFFF;
+} 
+*/
